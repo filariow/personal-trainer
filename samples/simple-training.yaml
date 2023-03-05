@@ -1,0 +1,109 @@
+exercises:
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 10
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 5
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 5
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+- name: "Cerchio gambe"
+  duration: 60
+  preparation: 15
+- name: "Cerchio gamba sinistra"
+  duration: 60
+  preparation: 5
+- name: "Cerchio gamba destra"
+  duration: 60
+  preparation: 5
+
+- name: "Cerchio gambe"
+  duration: 60
+  preparation: 5
+- name: "Cerchio gamba destra"
+  duration: 60
+  preparation: 5
+- name: "Cerchio gamba sinistra"
+  duration: 60
+  preparation: 5
+
+- name: "Cerchio gambe"
+  duration: 60
+  preparation: 5
+- name: "Cerchio gamba destra"
+  duration: 60
+  preparation: 5
+- name: "Cerchio gamba sinistra"
+  duration: 60
+  preparation: 5
+
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 10
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 5
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+- name: "Adduttori"
+  duration: 60
+  preparation: 5
+- name: "Adduttori"
+  duration: 60
+  preparation: 30
+- name: "Adduttori"
+  duration: 60
+  preparation: 30
+
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 5
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+- name: "Rullo Schiena"
+  duration: 60
+  preparation: 5
+- name: "Rullo Cervicale"
+  duration: 60
+  preparation: 5
+
+
+- name: "Mattoncini Candeliere"
+  duration: 60
+  preparation: 20
+- name: "Braccia in su"
+  duration: 60
+  preparation: 5
+- name: "Mattoncini Candeliere"
+  duration: 60
+  preparation: 5
+- name: "Braccia in su"
+  duration: 60
+  preparation: 5
+- name: "Mattoncini Candeliere"
+  duration: 60
+  preparation: 5
+- name: "Braccia in su"
+  duration: 60
+  preparation: 5

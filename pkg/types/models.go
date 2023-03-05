@@ -1,4 +1,8 @@
-package main
+package types
+
+type Training struct {
+	Exercises []Exercise `yaml:"exercises"`
+}
 
 type Exercise struct {
 	Name          string `yaml:"name"`
