@@ -11,10 +11,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/filariow/personal-trainer/pkg/spec"
 	"github.com/filariow/personal-trainer/pkg/speech"
 	"github.com/filariow/personal-trainer/pkg/types"
 	"github.com/spf13/cobra"
-	yaml "gopkg.in/yaml.v3"
 )
 
 // runCmd represents the run command
@@ -28,8 +28,6 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
-		fmt.Println("run called")
-
 		// this does the trick
 		var inputReader io.Reader = cmd.InOrStdin()
 
@@ -43,7 +41,7 @@ to quickly create a Cobra application.`,
 		}
 
 		// we process the input reader, wherever to be his origin
-		t, err := readSpec(cmd.Context(), inputReader)
+		t, err := spec.Read(cmd.Context(), inputReader)
 		if err != nil {
 			return fmt.Errorf("failed process input: %v", err)
 		}
@@ -88,15 +86,6 @@ func countdown(ctx context.Context, s speech.Speaker, count int64) {
 			log.Fatal(err)
 		}
 	}
-}
-
-func readSpec(ctx context.Context, reader io.Reader) (*types.Training, error) {
-	t := &types.Training{}
-	if err := yaml.NewDecoder(reader).Decode(t); err != nil {
-		return nil, err
-	}
-
-	return t, nil
 }
 
 func init() {
