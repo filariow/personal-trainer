@@ -18,6 +18,5 @@ type speaker struct{}
 
 func (s *speaker) Speak(ctx context.Context, text string) error {
 	speech := htgotts.Speech{Folder: "audio", Language: "it"}
-	speech.Speak(text)
-	return nil
+	return speech.Speak(text)
 }

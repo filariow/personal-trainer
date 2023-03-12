@@ -31,7 +31,7 @@ to quickly create a Cobra application.`,
 		if len(args) > 0 && args[0] != "-" {
 			file, err := os.Open(args[0])
 			if err != nil {
-				return fmt.Errorf("failed open file: %v", err)
+				return fmt.Errorf("failed open file: %w", err)
 			}
 			inputReader = file
 		}
@@ -39,7 +39,7 @@ to quickly create a Cobra application.`,
 		// we process the input reader, wherever to be his origin
 		t, err := spec.Read(cmd.Context(), inputReader)
 		if err != nil {
-			return fmt.Errorf("failed process input: %v", err)
+			return fmt.Errorf("failed process input: %w", err)
 		}
 
 		var td int64

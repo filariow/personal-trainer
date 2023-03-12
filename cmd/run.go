@@ -35,7 +35,7 @@ to quickly create a Cobra application.`,
 		if len(args) > 0 && args[0] != "-" {
 			file, err := os.Open(args[0])
 			if err != nil {
-				return fmt.Errorf("failed open file: %v", err)
+				return fmt.Errorf("failed open file: %w", err)
 			}
 			inputReader = file
 		}
@@ -43,7 +43,7 @@ to quickly create a Cobra application.`,
 		// we process the input reader, wherever to be his origin
 		t, err := spec.Read(cmd.Context(), inputReader)
 		if err != nil {
-			return fmt.Errorf("failed process input: %v", err)
+			return fmt.Errorf("failed process input: %w", err)
 		}
 
 		log.Printf("training: %v\n", t)
@@ -54,14 +54,13 @@ to quickly create a Cobra application.`,
 
 			doExercise(cmd.Context(), s, e)
 		}
-		s.Speak(cmd.Context(), "Hai finito compa'")
 
-		return nil
+		return s.Speak(cmd.Context(), "Hai finito compa'")
 	},
 }
 
 func getReady(ctx context.Context, speaker speech.Speaker, exercise types.Exercise) {
-	speaker.Speak(ctx, fmt.Sprintf("Preparati per %s", exercise.Name))
+	_ = speaker.Speak(ctx, fmt.Sprintf("Preparati per %s", exercise.Name))
 	time.Sleep(time.Duration(exercise.Preparation-5) * time.Second)
 
 	countdown(ctx, speaker, 5)
@@ -70,7 +69,7 @@ func getReady(ctx context.Context, speaker speech.Speaker, exercise types.Exerci
 func doExercise(ctx context.Context, speaker speech.Speaker, exercise types.Exercise) {
 	cw := exercise.DurationInSec / 2
 
-	speaker.Speak(ctx, exercise.Name)
+	_ = speaker.Speak(ctx, exercise.Name)
 	time.Sleep(time.Duration(cw) * time.Second)
 
 	countdown(ctx, speaker, cw)
