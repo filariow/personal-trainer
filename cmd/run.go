@@ -61,9 +61,13 @@ to quickly create a Cobra application.`,
 
 func getReady(ctx context.Context, speaker speech.Speaker, exercise types.Exercise) {
 	_ = speaker.Speak(ctx, fmt.Sprintf("Preparati per %s", exercise.Name))
-	time.Sleep(time.Duration(exercise.Preparation-5) * time.Second)
 
-	countdown(ctx, speaker, 5)
+	if exercise.Preparation > 5 {
+		time.Sleep(time.Duration(exercise.Preparation-5) * time.Second)
+		countdown(ctx, speaker, 5)
+	} else if exercise.Preparation > 0 {
+		countdown(ctx, speaker, exercise.Preparation)
+	}
 }
 
 func doExercise(ctx context.Context, speaker speech.Speaker, exercise types.Exercise) {

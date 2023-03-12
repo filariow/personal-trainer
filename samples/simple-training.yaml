@@ -1,115 +1,130 @@
 exercises:
 - name: "Rullo Schiena"
-  duration: 60
-  preparation: 10
+  duration: 45
+  preparation: 20
 - name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
-
+  duration: 45
+  preparation: 3
 - name: "Rullo Schiena"
-  duration: 60
-  preparation: 5
+  duration: 45
+  preparation: 3
 - name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
-
+  duration: 45
+  preparation: 3
 - name: "Rullo Schiena"
-  duration: 60
-  preparation: 5
+  duration: 45
+  preparation: 3
 - name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
+  duration: 45
+  preparation: 3
 
 - name: "Cerchio gambe"
+  duration: 90
+  preparation: 20
+- name: "Cerchio gamba sinistra, destra a terra"
+  duration: 60
+  preparation: 3
+- name: "Cerchio gamba destra, sinistra a terra"
+  duration: 60
+  preparation: 3
+- name: "Cerchio gambe"
+  duration: 90
+  preparation: 3
+- name: "Cerchio gamba sinistra, destra a terra"
+  duration: 60
+  preparation: 3
+- name: "Cerchio gamba destra, sinistra a terra"
+  duration: 60
+  preparation: 3
+- name: "Cerchio gambe"
+  duration: 60
+  preparation: 3
+- name: "Cerchio gamba sinistra, destra a terra"
+  duration: 60
+  preparation: 3
+- name: "Cerchio gamba destra, sinistra a terra"
+  duration: 60
+  preparation: 3
+
+- name: "Rullo Schiena"
+  duration: 45
+  preparation: 30
+- name: "Rullo Cervicale"
+  duration: 45
+  preparation: 3
+- name: "Rullo Schiena"
+  duration: 45
+  preparation: 3
+- name: "Rullo Cervicale"
+  duration: 45
+  preparation: 3
+
+- name: "Adduttori"
   duration: 60
   preparation: 15
-- name: "Cerchio gamba sinistra, destra a terra"
-  duration: 60
-  preparation: 5
-- name: "Cerchio gamba destra, sinistra a terra"
-  duration: 60
-  preparation: 5
-
-- name: "Cerchio gambe"
-  duration: 60
-  preparation: 5
-- name: "Cerchio gamba sinistra, destra a terra"
-  duration: 60
-  preparation: 5
-- name: "Cerchio gamba destra, sinistra a terra"
-  duration: 60
-  preparation: 5
-
-- name: "Cerchio gambe"
-  duration: 60
-  preparation: 5
-- name: "Cerchio gamba sinistra, destra a terra"
-  duration: 60
-  preparation: 5
-- name: "Cerchio gamba destra, sinistra a terra"
-  duration: 60
-  preparation: 5
-
-- name: "Rullo Schiena"
-  duration: 60
-  preparation: 10
-- name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
-
-- name: "Rullo Schiena"
-  duration: 60
-  preparation: 5
-- name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
-
+- name: "Riposo 30 secondi"
+  duration: 30
+  preparation: 0
 - name: "Adduttori"
   duration: 60
-  preparation: 5
+  preparation: 0
+- name: "Riposo 30 secondi"
+  duration: 30
+  preparation: 0
 - name: "Adduttori"
   duration: 60
+  preparation: 0
+
+- name: "Rullo Schiena"
+  duration: 45
   preparation: 30
-- name: "Adduttori"
-  duration: 60
+- name: "Rullo Cervicale"
+  duration: 45
+  preparation: 3
+- name: "Rullo Schiena"
+  duration: 45
+  preparation: 3
+- name: "Rullo Cervicale"
+  duration: 45
+  preparation: 3
+
+- name: "Mattoncini Candeliere"
+  duration: 45
   preparation: 30
+- name: "Gomiti altezza testa"
+  duration: 45
+  preparation: 2
+- name: "Braccia in su"
+  duration: 45
+  preparation: 2
+- name: "Mattoncini Candeliere"
+  duration: 45
+  preparation: 2
+- name: "Gomiti altezza testa"
+  duration: 45
+  preparation: 2
+- name: "Braccia in su"
+  duration: 45
+  preparation: 2
+- name: "Mattoncini Candeliere"
+  duration: 45
+  preparation: 2
+- name: "Gomiti altezza testa"
+  duration: 45
+  preparation: 2
+- name: "Braccia in su"
+  duration: 45
+  preparation: 2
 
 - name: "Rullo Schiena"
-  duration: 60
-  preparation: 5
+  duration: 45
+  preparation: 30
 - name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
-
+  duration: 45
+  preparation: 3
 - name: "Rullo Schiena"
-  duration: 60
-  preparation: 5
+  duration: 45
+  preparation: 3
 - name: "Rullo Cervicale"
-  duration: 60
-  preparation: 5
-
-
-- name: "Mattoncini Candeliere"
-  duration: 60
-  preparation: 20
-- name: "Braccia in su"
-  duration: 60
-  preparation: 5
-- name: "Mattoncini Candeliere"
-  duration: 60
-  preparation: 5
-- name: "Braccia in su"
-  duration: 60
-  preparation: 5
-- name: "Mattoncini Candeliere"
-  duration: 60
-  preparation: 5
-- name: "Braccia in su"
-  duration: 60
-  preparation: 5
-- name: "Mattoncini Candeliere"
-  duration: 60
-  preparation: 5
-- name: "Braccia in su"
-  duration: 60
-  preparation: 5
+  duration: 45
+  preparation: 3
